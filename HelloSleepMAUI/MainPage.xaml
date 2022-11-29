@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HelloSleepMAUI.MainPage"
+             BackgroundColor="#F3F7FE">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Image x:Name="logojpeg"  Source="hellosleep_logo.jpeg" Grid.Column="1" Grid.ColumnSpan="3" Grid.Row="0"></Image>
+        <Button Text="test" FontSize="50" Grid.Column="1" Grid.Row="1"></Button>
+
+
+
+
+
+    </Grid>
+
+    
+
+</ContentPage>
+
